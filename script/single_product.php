@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 include_once 'config.php';
-$sql = "select * from parent_categories";
+$sql = "select * from product where id=1";
 $result = $con->query($sql);
 while ($row = mysqli_fetch_assoc($result))
 {
