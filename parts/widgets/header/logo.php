@@ -3,6 +3,10 @@
 	<a href="<?php echo BASE_URL;?>/index.php?page=home">
 		<!--<img alt="logo" src="assets/images/logo.svg" width="233" height="54"/>-->
 		<!--<object id="sp" type="image/svg+xml" data="assets/images/logo.svg" width="233" height="54"></object>-->
+                
+                
+
+                
 		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" 
 		xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="233px" height="54px" 
 		viewBox="0 0 1280 720" enable-background="new 0 0 1280 720" xml:space="preserve">  
@@ -1547,6 +1551,6 @@ ZQAyMDE4LTAxLTAyVDA1OjQ5OjIwLTA3OjAwyzDrdgAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0w
 MS0wMlQwNTo0OTozNi0wNzowMBUXZm4AAAAASUVORK5CYII=" />
 </svg>
 	</a>
-</div><!-- /.logo -->
+</div><!-- /.logo 
 
 
