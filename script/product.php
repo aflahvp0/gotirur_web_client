@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 include_once 'config.php';
-$sql = "SELECT `product_name`, `company_name`, `real_amount`, `discounted_amount`, `image_1`, `image_2`, `image_3`, `image_4`, `image_5`, `image_6`, product.`id`, `tag`, `long_description`, `short_description` FROM `product`,featured_products WHERE product_id = product.id LIMIT 0,3";
+$sql = "SELECT `product_name`, `company_name`, `real_amount`, `discounted_amount`, `image_1`, `image_2`, `image_3`, `image_4`, `image_5`, `image_6`, product.`id`, `long_description`, `short_description` FROM `product`,featured_products WHERE product_id = product.id LIMIT 0,3";
 $result = $con->query($sql);
 while ($row= mysqli_fetch_assoc($result))
 {
