@@ -1,8 +1,3 @@
-<?php
-$carouselID = isset($carouselID) ? $carouselID : 'owl-recently-viewed';
-$containerClass = isset($containerClass) ? $containerClass : 'container';
-$productItemSize = isset($productItemSize) ? $productItemSize : 'size-small';
-?>
 <!-- ========================================= RECENTLY VIEWED ========================================= -->
 <section id="recently-reviewd" class="wow fadeInUp">
     <div class="<?php echo $containerClass; ?>">
@@ -17,7 +12,6 @@ $productItemSize = isset($productItemSize) ? $productItemSize : 'size-small';
             </div> <!--.title-nav--> 
 
             <div id="<?php echo $carouselID; ?>" class="owl-carousel product-grid-holder">
-
                 <div class="no-margin carousel-item product-item-holder <?php echo $productItemSize; ?> hover">
                     <div class="product-item">
                         <div class="ribbon red"><span>sale</span></div> 
@@ -45,7 +39,7 @@ $productItemSize = isset($productItemSize) ? $productItemSize : 'size-small';
                     </div> <!--.product-item--> 
                 </div> <!--.product-item-holder--> 
 
-<!--                <div class="no-margin carousel-item product-item-holder <?php //echo $productItemSize; ?> hover">
+                <div class="no-margin carousel-item product-item-holder <?php echo $productItemSize; ?> hover">
                     <div class="product-item">
                         <div class="ribbon blue"><span>new!</span></div> 
                         <div class="image">
@@ -69,10 +63,10 @@ $productItemSize = isset($productItemSize) ? $productItemSize : 'size-small';
                                 <a class="btn-add-to-compare" href="#">Compare</a>
                             </div>
                         </div>
-                    </div> .product-item 
-                </div> .product-item-holder -->
+                    </div> <!--.product-item--> 
+                </div> <!--.product-item-holder--> 
 
-<!--                <div class=" no-margin carousel-item product-item-holder <?php //echo $productItemSize; ?> hover">
+                <div class=" no-margin carousel-item product-item-holder <?php echo $productItemSize; ?> hover">
                     <div class="product-item">
 
                         <div class="image">
@@ -96,10 +90,10 @@ $productItemSize = isset($productItemSize) ? $productItemSize : 'size-small';
                                 <a class="btn-add-to-compare" href="#">Compare</a>
                             </div>
                         </div>
-                    </div> .product-item 
-                </div> .product-item-holder -->
+                    </div> <!--.product-item--> 
+                </div> <!--.product-item-holder -->
 
-<!--                <div class=" no-margin carousel-item product-item-holder <?php //echo $productItemSize; ?> hover">
+                <div class=" no-margin carousel-item product-item-holder <?php echo $productItemSize; ?> hover">
                     <div class="product-item">
                         <div class="ribbon blue"><span>new!</span></div> 
                         <div class="image">
@@ -123,10 +117,10 @@ $productItemSize = isset($productItemSize) ? $productItemSize : 'size-small';
                                 <a class="btn-add-to-compare" href="#">Compare</a>
                             </div>
                         </div>
-                    </div> .product-item 
-                </div> .product-item-holder -->
+                    </div> <!--.product-item--> 
+                </div> <!--.product-item-holder--> 
 
-<!--                <div class=" no-margin carousel-item product-item-holder <?php //echo $productItemSize; ?> hover">
+                <div class=" no-margin carousel-item product-item-holder <?php echo $productItemSize; ?> hover">
                     <div class="product-item">
                         <div class="ribbon green"><span>bestseller</span></div> 
                         <div class="image">
@@ -150,10 +144,10 @@ $productItemSize = isset($productItemSize) ? $productItemSize : 'size-small';
                                 <a class="btn-add-to-compare" href="#">Compare</a>
                             </div>
                         </div>
-                    </div> .product-item 
-                </div> .product-item-holder-->
+                    </div> <!--.product-item -->
+                </div> <!--.product-item-holder-->
 
-<!--                <div class=" no-margin carousel-item product-item-holder <?php //echo $productItemSize; ?> hover">
+                <div class=" no-margin carousel-item product-item-holder <?php echo $productItemSize; ?> hover">
                     <div class="product-item">
 
                         <div class="image">
@@ -177,10 +171,10 @@ $productItemSize = isset($productItemSize) ? $productItemSize : 'size-small';
                                 <a class="btn-add-to-compare" href="#">Compare</a>
                             </div>
                         </div>
-                    </div> .product-item 
-                </div> .product-item-holder -->
+                    </div> <!--.product-item -->
+                </div> <!--.product-item-holder--> 
 
-<!--                <div class=" no-margin carousel-item product-item-holder <?php //echo $productItemSize; ?> hover">
+                <div class=" no-margin carousel-item product-item-holder <?php echo $productItemSize; ?> hover">
                     <div class="product-item">
 
                         <div class="image">
@@ -204,10 +198,10 @@ $productItemSize = isset($productItemSize) ? $productItemSize : 'size-small';
                                 <a class="btn-add-to-compare" href="#">Compare</a>
                             </div>
                         </div>
-                    </div> .product-item 
-                </div> .product-item-holder -->
+                    </div> <!--.product-item--> 
+                </div> <!--.product-item-holder -->
 
-<!--                <div class=" no-margin carousel-item product-item-holder <?php //echo $productItemSize; ?> hover">
+                <div class=" no-margin carousel-item product-item-holder <?php echo $productItemSize; ?> hover">
                     <div class="product-item">
                         <div class="ribbon blue"><span>new!</span></div> 
                         <div class="image">
@@ -231,53 +225,6 @@ $productItemSize = isset($productItemSize) ? $productItemSize : 'size-small';
                                 <a class="btn-add-to-compare" href="#">Compare</a>
                             </div>
                         </div>
-                    </div> .product-item 
-                </div> .product-item-holder -->
-
-                <?php
-                include_once '/../../script/config.php';
-
-                $sql = "SELECT `product_id`, `last_view`,`product_name`, `company_name`, `real_amount`, `discounted_amount`, `image_1`, `image_2`, `image_3`, `image_4`, `image_5`, `image_6`, `product`.`id`, `long_description`, `short_description` FROM `recent_view`,`product` WHERE `user_id`=0 AND `product`.`id`=`recent_view`.`product_id` ORDER BY `recent_view`.`last_view` DESC";
-                $result = $con->query($sql);
-
-                while ($row = mysqli_fetch_assoc($result)) {
-                    echo '<div class="no-margin carousel-item product-item-holder '.$productItemSize.' hover">
-                    <div class="product-item">
-                        <div class="ribbon red"><span>sale</span></div> 
-                        <div class="image">
-                            <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-11.jpg" />
-                        </div>
-                        <div class="body">
-                            <div class="title">
-                                <a href="index.php?page=single-product">'.$row['product_name'].'</a>
-                            </div>
-                            <div class="brand">'.$row['company_name'].'</div>
-                        </div>
-                        <div class="prices">
-                            <div class="price-current text-right">'.$row['discounted_amount'].'</div>
-                        </div>
-                        <div class="hover-area">
-                            <div class="add-cart-button">
-                                <a href="index.php?page=single-product" class="le-button">Add to Cart</a>
-                            </div>
-                            <div class="wish-compare">
-                                <a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-                                <a class="btn-add-to-compare" href="#">Compare</a>
-                            </div>
-                        </div>
                     </div> <!--.product-item--> 
-                </div> <!--.product-item-holder--> ';
-                }
-                ?>
-
-
+                </div> <!--.product-item-holder--> 
             </div> <!--#recently-carousel-->
-            <?php
-//                require_once '/../../script/s_recently_viewed.php';
-//            require_once '/../../script/n_recent.php';
-            ?>
-
-        </div><!-- /.carousel-holder -->
-    </div><!-- /.container -->
-</section><!-- /#recently-reviewd -->
-<!-- ========================================= RECENTLY VIEWED : END ========================================= -->

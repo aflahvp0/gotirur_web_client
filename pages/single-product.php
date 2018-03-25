@@ -1,6 +1,6 @@
 <?php
 include_once '/../script/config.php';
-$sql = "select * from product where id=1";
+$sql = "select * from product where id=".$_GET['id'];
 $result = $con->query($sql);
 $row = mysqli_fetch_assoc($result);
 //while ($row = mysqli_fetch_assoc($result))
@@ -139,7 +139,7 @@ $row = mysqli_fetch_assoc($result);
                             <a class="plus" href="#add"></a>
                         </form>
                     </div><!--
-                    -->            <a id="addto-cart" href="index.php?page=cart" class="le-button huge">add to cart</a>
+                    -->            <a id="addto-cart" href="index.php?page=cart&id=<?php echo $_GET['id'] ?>" class="le-button huge">add to cart</a>
                     <?php
 //                    require_once '/../../../script/single_product.php';
                     ?>

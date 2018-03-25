@@ -90,13 +90,13 @@ $pages = array(
     <body>
 
         <div class="wrapper">
-<?php require 'parts/navigation/top-menu-bar.php'; ?>
+            <?php require 'parts/navigation/top-menu-bar.php'; ?>
             <?php
             if ($headerStyle == 1):
                 require 'parts/section/header.php';
                 require 'parts/breadcrumb/breadcrumb.php';
             else:
-                require  'parts/section/header-2.php';
+                require 'parts/section/header-2.php';
             endif;
             ?>
             <?php require_once 'pages/' . $page . '.php'; ?>

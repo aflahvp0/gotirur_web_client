@@ -3,9 +3,9 @@
         <div class="wishlist ">
             <a href="#"><i class="fa fa-heart"></i> wishlist <span class="value"></span> </a>
         </div>
-        <div class="compare">
+<!--        <div class="compare">
             <a href="#"><i class="fa fa-exchange"></i> compare <span class="value"></span> </a>
-        </div>
+        </div>-->
     </div>
 
     <!-- ============================================================= SHOPPING CART DROPDOWN ============================================================= -->
@@ -15,20 +15,20 @@
             
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 <div class="basket-item-count">
-                    <span class="count"></span>
+                    <span class="count">0</span>
                     <img src="assets/images/icon-cart.png" alt="" />
                 </div>
 
                 <div class="total-price-basket"> 
                     <span class="lbl">your cart:</span>
                     <span class="total-price">
-                        <span class="sign">$</span><span class="value">3219,00</span>
+                        <span class="sign">Rs.</span><span class="value">00</span>
                     </span>
                 </div>
             </a>
 
             <ul class="dropdown-menu">
-                <li>
+<!--                <li>
                     <div class="basket-item">
                         <div class="row">
                             <div class="col-xs-4 col-sm-4 no-margin text-center">
@@ -43,9 +43,9 @@
                         </div>
                         <a class="close-btn" href="#"></a>
                     </div>
-                </li>
+                </li>-->
 
-                <li>
+<!--                <li>
                     <div class="basket-item">
                         <div class="row">
                             <div class="col-xs-4 col-sm-4 no-margin text-center">
@@ -91,7 +91,7 @@
                             </div>
                         </div>
                     </div>
-                </li>
+                </li>-->
 
             </ul>
         </div><!-- /.basket -->
