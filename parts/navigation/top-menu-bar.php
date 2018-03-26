@@ -5,7 +5,7 @@
             <ul>
                 <li><a href="<?php echo BASE_URL;?>/index.php?page=home-2">Home</a></li>
                 
-                <li><a href="index.php?page=blog">Blog</a></li>
+                <!--<li><a href="index.php?page=blog">Blog</a></li>-->
                 <li><a href="index.php?page=faq">FAQ</a></li>
                 <li><a href="index.php?page=contact">Contact</a></li>
                 
@@ -16,8 +16,8 @@
             <ul class="right">
                 
                 
-                <li><a href="index.php?page=authentication">Register</a></li>
-                <li><a href="index.php?page=authentication">Login</a></li>
+                <!--<li><a href="index.php?page=authentication">Register</a></li>-->
+                <!--<li><a href="index.php?page=authentication">Login</a></li>-->
             </ul>
         </div><!-- /.col -->
     </div><!-- /.container -->

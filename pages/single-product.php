@@ -1,44 +1,32 @@
 <?php
 include_once '/../script/config.php';
-$sql = "select * from product where id=".$_GET['id'];
+$sql = "select * from product where id=" . $_GET['id'];
 $result = $con->query($sql);
 $row = mysqli_fetch_assoc($result);
-//while ($row = mysqli_fetch_assoc($result))
-//{
-//    echo '<div class="title"><a href="#">'.$row['product_name'].'</a></div>
-//        <div class="brand">'.$row['company_name'].'</div>
-//            <div class="prices">
-//            <div class="price-current">'.$row['discounted_amount'].'</div>
-//            <div class="price-prev">'.$row['real_amount'].'</div>
-//        </div>
-//
-//       ';
-//}
 ?>
+
 <div id="single-product">
     <div class="container">
-
-        <?php //require MC_ROOT.'/parts/section/single-product-gallery.php';?>
 
         <div class="no-margin col-xs-12 col-sm-6 col-md-5 gallery-holder">
             <div class="product-item-holder size-big single-product-gallery small-gallery">
 
                 <div id="owl-single-product">
                     <div class="single-product-gallery-item" id="slide1">
-                        <a data-rel="prettyphoto" href="images/products/<?php echo $row['image_1'] ?>.jpg">
-                            <img class="img-responsive" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/img1.jpg" />
+                        <a data-rel="prettyphoto" href="assets/images/products/<?php echo $row['image_1']; ?>">
+                            <img class="img-responsive" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_1']; ?>" />
                         </a>
                     </div><!-- /.single-product-gallery-item -->
 
                     <div class="single-product-gallery-item" id="slide2">
-                        <a data-rel="prettyphoto" href="images/products/<?php echo $row['image_2'] ?>.jpg">
-                            <img class="img-responsive" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/img2.jpg" />
+                        <a data-rel="prettyphoto" href="assets/images/products/<?php echo $row['image_2']; ?>">
+                            <img class="img-responsive" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_2']; ?>" />
                         </a>
                     </div><!-- /.single-product-gallery-item -->
 
                     <div class="single-product-gallery-item" id="slide3">
-                        <a data-rel="prettyphoto" href="images/products//<?php echo $row['image_3'] ?>.jpg">
-                            <img class="img-responsive" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/img3.jpg" />
+                        <a data-rel="prettyphoto" href="assets/images/products//<?php echo $row['image_3']; ?>">
+                            <img class="img-responsive" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_1']; ?>" />
                         </a>
                     </div><!-- /.single-product-gallery-item -->
                 </div><!-- /.single-product-slider -->
@@ -48,40 +36,29 @@ $row = mysqli_fetch_assoc($result);
 
                     <div id="owl-single-product-thumbnails">
                         <a class="horizontal-thumb active" data-target="#owl-single-product" data-slide="0" href="#slide1">
-                            <img width="67" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_1'] ?>.jpg" />
+                            <img width="67" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_1']; ?>" />
                         </a>
 
                         <a class="horizontal-thumb" data-target="#owl-single-product" data-slide="1" href="#slide2">
-                            <img width="67" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_2'] ?>.jpg" />
+                            <img width="67" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_2']; ?>" />
                         </a>
 
                         <a class="horizontal-thumb" data-target="#owl-single-product" data-slide="2" href="#slide3">
-                            <img width="67" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_3'] ?>.jpg" />
+                            <img width="67" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_3']; ?>" />
                         </a>
 
                         <a class="horizontal-thumb" data-target="#owl-single-product" data-slide="0" href="#slide1">
-                            <img width="67" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_4'] ?>.jpg" />
+                            <img width="67" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_4']; ?>" />
                         </a>
 
                         <a class="horizontal-thumb" data-target="#owl-single-product" data-slide="1" href="#slide2">
-                            <img width="67" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_5'] ?>.jpg" />
+                            <img width="67" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_5']; ?>" />
                         </a>
 
                         <a class="horizontal-thumb" data-target="#owl-single-product" data-slide="2" href="#slide3">
-                            <img width="67" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_6'] ?>.jpg" />
+                            <img width="67" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_6'] ?>" />
                         </a>
 
-                        <!--                        <a class="horizontal-thumb" data-target="#owl-single-product" data-slide="0" href="#slide1">
-                                                    <img width="67" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php // echo $row['image_7']  ?>.jpg" />
-                                                </a>
-                        
-                                                <a class="horizontal-thumb" data-target="#owl-single-product" data-slide="1" href="#slide2">
-                                                    <img width="67" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php // echo $row['image_8']  ?>.jpg" />
-                                                </a>
-                        
-                                                <a class="horizontal-thumb" data-target="#owl-single-product" data-slide="2" href="#slide3">
-                                                    <img width="67" alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php // echo $row['image_9']  ?>.jpg" />
-                                                </a>-->
                     </div><!-- /#owl-single-product-thumbnails -->
 
                     <div class="nav-holder left hidden-xs">
@@ -97,8 +74,6 @@ $row = mysqli_fetch_assoc($result);
             </div><!-- /.single-product-gallery -->
         </div><!-- /.gallery-holder -->
 
-        <?php //require MC_ROOT . '/parts/section/single-product-detail.php'; ?>
-
         <div class="no-margin col-xs-12 col-sm-7 body-holder">
             <div class="body">
                 <div class="star-holder inline"><div class="star" data-score="4"></div></div>
@@ -113,36 +88,32 @@ $row = mysqli_fetch_assoc($result);
                     <span class="st_facebook_hcount"></span>
                     <span class="st_twitter_hcount"></span>
                     <span class="st_pinterest_hcount"></span>
-                </div><!--
-        
-                -->        <div class="buttons-holder">
-                    <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
-                    <a class="btn-add-to-compare" href="#">add to compare list</a>
-                </div><!--
-        
-                -->        <div class="excerpt">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare turpis non risus semper dapibus. Quisque eu vehicula turpis. Donec sodales lacinia eros, sit amet auctor tellus volutpat non.</p>
-                </div><!--
-                
+                </div>     
+
+                <div class="buttons-holder">
+                    <a class="btn-add-to-wishlist" href="insertToWishlist.php?id=<?php echo $row['id']; ?>">Add to Wishlist</a>
+                </div>     
+
+                <div class="excerpt">
+                    <p><?php echo $row['short_description']; ?></p>
+                </div>             
+
                 <div class="prices">
-                    <div class="price-current">$1740.00</div>
-                    <div class="price-prev">$2199.00</div>
+                    <div class="price-current">Rs. 1740.00</div>
+                    <div class="price-prev">Rs. 2199.00</div>
                 </div>
-        
-        
-        
-                -->        <div class="qnt-holder">
+
+                <div class="qnt-holder">
                     <div class="le-quantity">
                         <form>
                             <a class="minus" href="#reduce"></a>
                             <input name="quantity" readonly="readonly" type="text" value="1" />
                             <a class="plus" href="#add"></a>
                         </form>
-                    </div><!--
-                    -->            <a id="addto-cart" href="index.php?page=cart&id=<?php echo $_GET['id'] ?>" class="le-button huge">add to cart</a>
-                    <?php
-//                    require_once '/../../../script/single_product.php';
-                    ?>
+                    </div>        
+
+                    <a id="addto-cart" href="index.php?page=cart&id=<?php echo $_GET['id'] ?>" class="le-button huge">add to cart</a>
+
                 </div><!-- /.qnt-holder -->
             </div><!-- /.body -->
 
@@ -263,14 +234,14 @@ $hasSidebar = isset($hasSidebar) ? $hasSidebar : false;
                         <div class="tab-pane" id="reviews">
                             <div class="comments">
 
-<?php
+                                <?php
 //                    include_once '/../script/config.php';
-$sql = "select * from reviews where product_id=1";
-$result = $con->query($sql);
+                                $sql = "select * from reviews where product_id=1";
+                                $result = $con->query($sql);
 //                        $row = mysqli_fetch_assoc($result);
-while ($row = mysqli_fetch_assoc($result)) {
+                                while ($row = mysqli_fetch_assoc($result)) {
 
-    echo ' <div class="comment-item">
+                                    echo ' <div class="comment-item">
                             <div class="row no-margin">
                                 <div class="col-lg-1 col-xs-12 col-sm-2 no-margin">
                                     <div class="avatar">
@@ -301,8 +272,8 @@ while ($row = mysqli_fetch_assoc($result)) {
                             </div><!-- /.row -->
                         </div><!-- /.comment-item -->
                    ';
-}
-?>
+                                }
+                                ?>
 
                                 <div class="comment-item">
                                     <div class="row no-margin">
@@ -412,4 +383,4 @@ while ($row = mysqli_fetch_assoc($result)) {
             </section><!-- /#single-product-tab -->
             <!-- ========================================= SINGLE PRODUCT TAB : END ========================================= -->
 
-<?php require MC_ROOT . '/parts/section/recently-viewed.php'; ?>
+            <?php require MC_ROOT . '/parts/section/recently-viewed.php'; ?>

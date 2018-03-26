@@ -15,14 +15,14 @@ while ($row= mysqli_fetch_assoc($result))
                     <div class="col-xs-12 col-sm-9 no-margin">
                         <a href="index.php?page=single-product&id='.$row['id'].'">'.$row['product_name'].'</a>
                         <div class="price">
-                            <div class="price-prev">'.$row['real_amount'].'</div>
-                            <div class="price-current">'.$row['discounted_amount'].'</div>
+                            <div class="price-prev">Rs. '.$row['real_amount'].'</div>
+                            <div class="price-current">Rs. '.$row['discounted_amount'].'</div>
                         </div>
                     </div>  
 
                     <div class="col-xs-12 col-sm-3 no-margin">
                         <a href="#" class="thumb-holder">
-                            <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-06.jpg" />
+                            <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/'.$row['image_1'].'" />
                         </a>
                     </div>
                 </div>

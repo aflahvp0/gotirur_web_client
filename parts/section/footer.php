@@ -45,7 +45,7 @@
         <div class="container">
             <div class="col-xs-12 col-sm-6 no-margin">
                 <div class="copyright">
-                    &copy; <a href="index.php?page=home">Media Center</a> - all rights reserved
+                    &copy; <a href="index.php">Media Center</a> - all rights reserved
                 </div><!-- /.copyright -->
             </div>
             <div class="col-xs-12 col-sm-6 no-margin">

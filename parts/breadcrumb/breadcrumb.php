@@ -4,4 +4,3 @@
 		require MC_ROOT.'/parts/breadcrumb/breadcrumb-'.$page.'.php';
 		echo '</div>';
 	}
-?>

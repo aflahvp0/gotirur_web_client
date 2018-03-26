@@ -5,217 +5,65 @@
 
         <div class="product-grid-holder medium">
             <div class="col-xs-12 col-md-7 no-margin">
-                
+
                 <div class="row no-margin">
-                    <div class="col-xs-12 col-sm-4 no-margin product-item-holder size-medium hover">
-                        <div class="product-item">
-                            <div class="image">
-                                <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-05.jpg" />
-                            </div>
-                            <div class="body">
-                                <div class="label-discount clear"></div>
-                                <div class="title">
-                                    <a href="index.php?page=single-product">beats studio headphones official one</a>
-                                </div>
-                                <div class="brand">beats</div>
-                            </div>
-                            <div class="prices">
-
-                                <div class="price-current text-right">$1199.00</div>
-                            </div>
-                            <div class="hover-area">
-                                <div class="add-cart-button">
-                                    <a href="index.php?page=single-product" class="le-button">Add to cart</a>
-                                </div>
-                                <div class="wish-compare">
-                                    <a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-                                    <a class="btn-add-to-compare" href="#">Compare</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /.product-item-holder -->
-
-                    <div class="col-xs-12 col-sm-4 no-margin product-item-holder size-medium hover">
-                        <div class="product-item">
-                            <div class="image">
-                                <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-06.jpg" />
-                            </div>
-                            <div class="body">
-                                <div class="label-discount clear"></div>
-                                <div class="title">
-                                    <a href="index.php?page=single-product">playstasion 4 with four games and pad</a>
-                                </div>
-                                <div class="brand">acer</div>
-                            </div>
-                            <div class="prices">
-                                <div class="price-current text-right">$1199.00</div>
-                            </div>
-                            <div class="hover-area">
-                                <div class="add-cart-button">
-                                    <a href="index.php?page=single-product" class="le-button">Add to cart</a>
-                                </div>
-                                <div class="wish-compare">
-                                    <a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-                                    <a class="btn-add-to-compare" href="#">Compare</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /.product-item-holder -->
-
-                    <div class="col-xs-12 col-sm-4 no-margin product-item-holder size-medium hover">
-                        <div class="product-item">
-                            <div class="image">
-                                <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-07.jpg" />
-                            </div>
-                            <div class="body">
-                                <div class="label-discount clear"></div>
-                                <div class="title">
-                                    <a href="index.php?page=single-product">EOS rebel t5i DSLR Camera with 18-55mm IS STM lens</a>
-                                </div>
-                                <div class="brand">canon</div>
-                            </div>
-                            <div class="prices">
-                                <div class="price-current text-right">$1199.00</div>
-                            </div>
-                            <div class="hover-area">
-                                <div class="add-cart-button">
-                                    <a href="index.php?page=single-product" class="le-button">Add to cart</a>
-                                </div>
-                                <div class="wish-compare">
-                                    <a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-                                    <a class="btn-add-to-compare" href="#">Compare</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /.product-item-holder -->
+                    <?php include 'best.php'; ?>
                 </div><!-- /.row -->
-                
+
                 <div class="row no-margin">
-                    
-                    <div class="col-xs-12 col-sm-4 no-margin product-item-holder size-medium hover">
-                        <div class="product-item">
-                            <div class="image">
-                                <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-08.jpg" />
-                            </div>
-                            <div class="body">
-                                <div class="label-discount clear"></div>
-                                <div class="title">
-                                    <a href="index.php?page=single-product">fitbit zip wireless activity tracker - lime</a>
-                                </div>
-                                <div class="brand">fitbit zip</div>
-                            </div>
-                            <div class="prices">
-                                <div class="price-current text-right">$1199.00</div>
-                            </div>
-                            <div class="hover-area">
-                                <div class="add-cart-button">
-                                    <a href="index.php?page=single-product" class="le-button">Add to cart</a>
-                                </div>
-                                <div class="wish-compare">
-                                    <a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-                                    <a class="btn-add-to-compare" href="#">Compare</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /.product-item-holder -->
 
-                    <div class="col-xs-12 col-sm-4 no-margin product-item-holder size-medium hover">
-                        <div class="product-item">
-                            <div class="image">
-                                <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-09.jpg" />
-                            </div>
-                            <div class="body">
-                                <div class="label-discount clear"></div>
-                                <div class="title">
-                                    <a href="index.php?page=single-product">PowerShot elph 115 16MP digital camera</a>
-                                </div>
-                                <div class="brand">canon</div>
-                            </div>
-                            <div class="prices">
-                                <div class="price-current text-right">$1199.00</div>
-                            </div>
-                            <div class="hover-area">
-                                <div class="add-cart-button">
-                                    <a href="index.php?page=single-product" class="le-button">Add to cart</a>
-                                </div>
-                                <div class="wish-compare">
-                                    <a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-                                    <a class="btn-add-to-compare" href="#">Compare</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /.product-item-holder -->
-
-                    <div class="col-xs-12 col-sm-4 no-margin product-item-holder size-medium hover">
-                        <div class="product-item">
-                            <div class="image">
-                                <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-10.jpg" />
-                            </div>
-                            <div class="body">
-                                <div class="label-discount clear"></div>
-                                <div class="title">
-                                    <a href="index.php?page=single-product">netbook acer travelMate b113-E-10072</a>
-                                </div>
-                                <div class="brand">acer</div>
-                            </div>
-                            <div class="prices">
-                                <div class="price-current text-right">$1199.00</div>
-                            </div>
-                            <div class="hover-area">
-                                <div class="add-cart-button">
-                                    <a href="index.php?page=single-product" class="le-button">Add to cart</a>
-                                </div>
-                                <div class="wish-compare">
-                                    <a class="btn-add-to-wishlist" href="#">Add to Wishlist</a>
-                                    <a class="btn-add-to-compare" href="#">Compare</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /.product-item-holder -->
+                    <?php include 'best2.php'; ?>
 
                 </div><!-- /.row -->
             </div><!-- /.col -->
+
+            <?php
+            include_once 'config.php';
+            $sql = "SELECT `product_id`,`product_name`, `company_name`, `real_amount`, `discounted_amount`, `image_1`, `image_2`, `image_3`, `image_4`, `image_5`, `image_6`, `product`.`id`, `long_description`, `short_description` FROM `best_products`,`product` WHERE `product`.`id`=`product_id`";
+            $result = $con->query($sql);
+            $row = mysqli_fetch_assoc($result);
+            ?>
             <div class="col-xs-12 col-md-5 no-margin">
                 <div class="product-item-holder size-big single-product-gallery small-gallery">
-                    
+
                     <div id="best-seller-single-product-slider" class="single-product-slider owl-carousel">
                         <div class="single-product-gallery-item" id="slide1">
-                            <a data-rel="prettyphoto" href="images/products/product-gallery-01.jpg">
-                                <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-gallery-01.jpg" />
+                            <a data-rel="prettyphoto" href="assets/images/products/<?php echo $row['image_1']; ?>">
+                                <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_1']; ?>" />
                             </a>
                         </div><!-- /.single-product-gallery-item -->
 
                         <div class="single-product-gallery-item" id="slide2">
-                            <a data-rel="prettyphoto" href="images/products/product-gallery-01.jpg">
-                                <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-gallery-01.jpg" />
+                            <a data-rel="prettyphoto" href="assets/images/products/<?php echo $row['image_2']; ?>">
+                                <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_2']; ?>" />
                             </a>
                         </div><!-- /.single-product-gallery-item -->
 
                         <div class="single-product-gallery-item" id="slide3">
-                            <a data-rel="prettyphoto" href="images/products/product-gallery-01.jpg">
-                                <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-gallery-01.jpg" />
+                            <a data-rel="prettyphoto" href="assets/images/products/<?php echo $row['image_3']; ?>">
+                                <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_3']; ?>" />
                             </a>
                         </div><!-- /.single-product-gallery-item -->
                     </div><!-- /.single-product-slider -->
 
                     <div class="gallery-thumbs clearfix">
                         <ul>
-                            <li><a class="horizontal-thumb active" data-target="#best-seller-single-product-slider" data-slide="0" href="#slide1"><img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/gallery-thumb-01.jpg" /></a></li>
-                            <li><a class="horizontal-thumb" data-target="#best-seller-single-product-slider" data-slide="1" href="#slide2"><img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/gallery-thumb-01.jpg" /></a></li>
-                            <li><a class="horizontal-thumb" data-target="#best-seller-single-product-slider" data-slide="2" href="#slide3"><img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/gallery-thumb-01.jpg" /></a></li>
+                            <li><a class="horizontal-thumb active" data-target="#best-seller-single-product-slider" data-slide="0" href="#slide1"><img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_1']; ?>" /></a></li>
+                            <li><a class="horizontal-thumb" data-target="#best-seller-single-product-slider" data-slide="1" href="#slide2"><img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_2']; ?>" /></a></li>
+                            <li><a class="horizontal-thumb" data-target="#best-seller-single-product-slider" data-slide="2" href="#slide3"><img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/<?php echo $row['image_3']; ?>" /></a></li>
                         </ul>
                     </div><!-- /.gallery-thumbs -->
 
                     <div class="body">
                         <div class="label-discount clear"></div>
                         <div class="title">
-                            <a href="index.php?page=single-product">CPU intel core i5-4670k 3.4GHz BOX B82-12-122-41</a>
+                            <a href="index.php?page=single-product"><?php echo $row['product_name']; ?></a>
                         </div>
                         <div class="brand">sony</div>
                     </div>
                     <div class="prices text-right">
-                        <div class="price-current inline">$1199.00</div>
-                        <a href="cart.html" class="le-button big inline">add to cart</a>
+                        <div class="price-current inline"><?php echo 'Rs. ' . $row['discounted_amount']; ?></div>
+                        <a class="le-button big inline" href="insertToWishlist.php?id=<?php echo $row['id']; ?>">Add to Wishlist</a>
                     </div>
                 </div><!-- /.product-item-holder -->
             </div><!-- /.col -->

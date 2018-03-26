@@ -1,4 +1,15 @@
 <?php
+session_start();
+include_once 'config.php';
+if (!isset($_SESSION["customer_id"])) {
+    $sql = "SELECT MAX(id) FROM user";
+    $result = $con->query($sql);
+    $row = mysqli_fetch_assoc($result);
+    $_SESSION["customer_id"] = $row["MAX(id)"] + 1;
+    $sql1 = "INSERT INTO `user`(`name`) VALUES ('guest')";
+    $con->query($sql1);
+}
+//echo $_SESSION["customer_id"];
 
 // Define the root folder and base URL for the application
 function baseURL() {

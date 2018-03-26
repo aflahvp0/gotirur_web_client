@@ -1,9 +1,9 @@
 <div class="contact-row">
     <div class="phone inline">
-        <i class="fa fa-phone"></i> (+800) 123 456 7890
+        <i class="fa fa-phone"></i> (+91) 989 520 4814
     </div>
     <div class="contact inline">
-        <i class="fa fa-envelope"></i> contact@<span class="le-color">oursupport.com</span>
+        <i class="fa fa-envelope"></i> contact@<span class="le-color">gotirur.com</span>
     </div>
 </div><!-- /.contact-row -->
 <!-- ============================================================= SEARCH AREA ============================================================= -->
